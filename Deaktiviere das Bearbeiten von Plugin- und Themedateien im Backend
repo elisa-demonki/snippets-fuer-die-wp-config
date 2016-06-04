@@ -1,0 +1,4 @@
+<?php 
+// Deaktiviere das Bearbeiten von Plugin- und Themedateien im Backend
+define( 'DISALLOW_FILE_EDIT', true );
+?>
