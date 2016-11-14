@@ -1,8 +1,14 @@
 // Deaktiviere den Plugin- und Theme-Editor im Backend
 define( 'DISALLOW_FILE_EDIT', true );
 
-// Erhöhe die automatische Speicherung auf 300 Sekunden (Standart: 60 Sekunden)
-define('AUTOSAVE_INTERVAL', 300 ); 
+// Erhöhe die automatische Speicherung auf eine Stunde (Standart: 60 Sekunden)
+define('AUTOSAVE_INTERVAL', 3600 ); 
 
 // Deaktiviere das Anlegen von Revisionen
 define('WP_POST_REVISIONS', false );
+
+// Deaktiviere WP Cron
+define( 'DISABLE_WP_CRON',      true );
+
+// Leere den Papierkorb nach 7 Tagen
+define( 'EMPTY_TRASH_DAYS',     7 );     
