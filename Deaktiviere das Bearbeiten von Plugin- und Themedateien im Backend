@@ -1,3 +1,3 @@
-// Deaktiviere das Bearbeiten von Plugin- und Themedateien im Backend
+// Deaktiviere den Plugin- und Theme-Editor im Backend
 
 define( 'DISALLOW_FILE_EDIT', true );
