@@ -1,3 +1,8 @@
 // Deaktiviere den Plugin- und Theme-Editor im Backend
-
 define( 'DISALLOW_FILE_EDIT', true );
+
+// Erhöhe die automatische Speicherung auf 300 Sekunden (Standart: 60 Sekunden)
+define('AUTOSAVE_INTERVAL', 300 ); 
+
+// Deaktiviere das Anlegen von Revisionen
+define('WP_POST_REVISIONS', false );
